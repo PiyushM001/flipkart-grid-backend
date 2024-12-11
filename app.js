@@ -17,7 +17,7 @@ app.use(cors()); // Enable CORS for all routes
 // =========================== SCHEMA SECTION ===========================
 
 // Connect to MongoDB
-mongoose.connect( `${API_URL}`)
+mongoose.connect( "mongodb+srv://pmimpiyush:YZWXn3MbuhQbWg8Y@cluster0.nszi1.mongodb.net/")
     .then(() => console.log('Connected to MongoDB'))
     .catch((error) => console.error('MongoDB connection error:', error));
 
